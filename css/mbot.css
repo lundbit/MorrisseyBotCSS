@@ -1,0 +1,275 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 10 Ton Truck Background */
+.bus {
+    background: #c2bbb1 url(../images/sign.jpg) center center no-repeat;
+    background-size: cover; 
+    text-align: center;
+    padding: 400px 0;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.bus p {
+    margin: 0;
+    background-color: rgba(0,0,0,.7);
+    color: rgb(20, 17, 17);
+    text-shadow: 1px 1px 0 #000;
+	display: inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: -3%;
+    left:15px;
+}
+
+/*  Banner Overlay  */
+
+.image-banner {
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: -10%;
+    left:0;
+    color: rgb(24, 17, 17);
+    background-color: rgba(8, 2, 37, 0.5)
+}
+
+.caption {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/color-tile.png) left bottom repeat-x, #fff url(../images/color-tile.png) top left repeat-x;
+    padding-top: 15px;
+    padding-left: 40px;
+    box-sizing: border-box; 
+}
+
+header {
+    padding-top: 20px;
+    color: #617140;
+    background-image: url(../images/dbus.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+header h1 {
+    margin:0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin:0;
+}
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin:0;
+    padding:0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    color: #3a4425;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 3px solid #adb1a2;
+    border-bottom: none;
+
+}
+
+.site-nav a:hover {
+    background-color: #adb1a2;
+}
+
+.content-area {
+    border-top: 3px solid #adb1a2;
+    border-bottom: 3px solid #adb1a2;
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;  
+}
+
+/* Table Styles */
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+.col-reason {
+    width: 60%;
+}
+
+.col-number, .col-species {
+    width: 20%;
+}
+
+table th {
+    text-align: left;
+    background-color: #adb1a2;
+    color:  rgb(39, 44, 38);
+    text-shadow: 1px 1px 0 rgba(0,0,0,.6);
+}
+
+table th, 
+table td {
+    border: 1px solid #adb1a2;
+    padding: 10px;
+    vertical-align: top;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color:#d4d8c9;
+}
+
+table.species-list tr :nth-child(2), 
+table.species-list tr :nth-child(3){
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    background-color: rgba(190, 177, 177, 0.712);
+    padding: 30px 40px;
+}
+
+.hidden-label {  
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input,
+select {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select{
+    width: 100%;
+    box-sizing:border-box;
+    display: block;
+    padding: 0 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #CDCDCD;
+    outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus {
+    border: 1px solid #adb1a2;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.6);
+}
+
+input[type="submit"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #adb1a2;
+    color: #FFF;
+    padding: 10px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid #535e3b;
+    background-color: #adb1a2;
+}
+
+.checkbox-text {
+    font-size: 85%;
+    color: #777;
+}
+ 
+
+.sidebar {
+    width: 34%;
+    float: left;
+    background-color: #abd1a2;
+    background-image: linear-gradient(to bottom, #abd1a2, #FFF);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 114%;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear:both;
+}
+
+.group {
+    zoom:1;
+}
